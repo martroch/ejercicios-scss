@@ -1,0 +1,43 @@
+.card-link{
+  
+    display: inline-block;
+    padding: $space--medium;
+    background-color:$hard--green ;
+    color: white;
+    margin: $space;
+    border-radius: 6%;
+    max-width: 100px;
+    width: 100%;
+    text-decoration: none;
+    transition: 0.5s;
+   
+    &:visited{color: white;}
+
+    &:hover{
+        background-color: rgb(123, 158, 123);
+        transform: scale(1.1);
+    
+    }
+    
+}
+
+.inteior-card{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+
+.card{
+    display: inline-block;
+    max-width: 520px;
+    text-align: center;
+    
+}
+.section-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

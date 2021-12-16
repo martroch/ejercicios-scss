@@ -1,0 +1,34 @@
+.navegation{
+    display: flex;
+   justify-content: space-between;
+   padding: $space $space--medium;
+   align-items: center;
+   
+   
+ 
+}
+
+.log-out{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+
+}
+
+.button-inicio{
+    background-color: $hard--green;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6%;
+
+    &:hover{
+        background-color: rgb(123, 158, 123);
+    }
+
+    
+ 
+}
